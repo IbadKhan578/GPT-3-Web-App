@@ -1,0 +1,176 @@
+.header{
+    display: flex;
+}
+
+.header-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+
+}
+
+.header-content h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    line-height: 75px;
+    font-size: 62px;
+    letter-spacing: -0.04rem;
+}
+
+
+.header-content p{
+    color: #81AFDD;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    margin-top: 1.5rem;
+}
+
+.header-content-input{
+
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+
+.header-content-input input{
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    border-radius: 5px 0 0 5px;
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-size: 20px;
+    line-height: 27px;
+    font-family: var(--font-family);
+    color: #fff;
+    padding: 0 1rem;
+    outline: none;
+
+}
+
+.header-content-input button{
+    flex: 0.6;
+    width: 100%;
+    background-color: #FF4820;
+    min-height: 50px;
+    font-size: 20px;
+    color: white;
+    line-height: 27px;
+    font-weight: bold;
+    font-family: var(--font-family);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+
+}
+
+.header-content-people {
+  display: flex;
+  align-items: center; /* vertical centering */
+  justify-content: flex-start;
+  margin-top: 2rem;
+  padding: 0.5rem; /* optional for breathing room */
+  gap: 10px;
+}
+
+.header-content-people img {
+  width: 181px;
+  height: 38px;
+  object-fit: contain;
+  display: block;
+}
+
+.header-content-people p {
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-family: var(--font-family);
+  line-height: 1.4;
+  margin: 0;
+}
+
+.header-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-image img{
+
+    width: 100%;
+    height: 100%;
+}
+
+@media  screen and (max-width:1050px) {
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-content{
+        margin: 0 0 3ren;
+    }
+    
+}
+
+@media  screen and (max-width:650px) {
+    .header .header-content h1{
+        font-size: 47px;
+        line-height: 60px;
+    }
+
+    .header .header-content p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .header-content-people{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .header-content-people p{
+        text-align: center;
+        margin: 0;
+        
+    }
+    .header-content-input input,
+    .header-content-input button{
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+
+ 
+    
+}
+
+@media screen and (max-width:490px) {
+
+    .header .header-content h1{
+        font-size: 36px;
+        line-height: 48px
+    }
+    .header .header-content p{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .header-content-people p{
+        font-size: 10px;
+    }
+    .header-content-input input,
+    .header-content-input button{
+        font-size: 12px;
+        line-height: 16px;
+
+    }
+    
+
+    
+}
+

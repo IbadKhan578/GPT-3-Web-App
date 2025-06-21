@@ -1,0 +1,19 @@
+.brand {
+  padding: 2rem;
+   /* optional background */
+}
+
+.brand > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem; /* space between logos */
+}
+
+.brand img {
+  max-width: 120px; /* or use a % if you prefer */
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
