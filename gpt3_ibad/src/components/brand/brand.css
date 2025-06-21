@@ -1,5 +1,6 @@
 .brand {
   padding: 2rem;
+  margin-top: 4rem;
    /* optional background */
 }
 
@@ -12,6 +13,7 @@
 }
 
 .brand img {
+  cursor: pointer;
   max-width: 120px; /* or use a % if you prefer */
   width: 100%;
   height: auto;

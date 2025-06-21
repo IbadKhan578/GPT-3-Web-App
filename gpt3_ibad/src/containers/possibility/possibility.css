@@ -1,0 +1,84 @@
+.possibility{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.possibility-img-container{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right:2rem ;
+}
+
+.possibility-img-container img{
+    max-width: 546px; 
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.possibility-heading-container{
+    flex: 1;
+    display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: flex-end;
+align-items: flex-start;
+
+
+}
+
+.possibility-heading-container p{
+    margin-bottom: 2rem;
+}
+
+.possibility-heading-container .possibility-p1{
+    color: #71E5FF;
+    font: 16px;
+    line-height: 30px;
+    font-family: var(--font-family);
+
+}
+
+.possibility-heading-container h1{
+    margin-bottom: 2rem;
+    font-family: var(--font-family);
+    font-size: 34px;
+    line-height: 45px;
+
+
+}
+
+
+.possibility-heading-container .possibility-p3{
+    font-size: 16px;
+    line-height: 30px;
+    font-family: var(--font-family);
+}
+
+.possibility-heading-container .possibility-p2{
+    font-family: var(--font-family);
+    color: #81AFDD;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+@media screen and (max-width:950px) {
+    .possibility{
+        flex-direction: column;
+    }
+    .possibility-img-container{
+        margin: 1rem 0 ;
+    }
+
+    .possibility-heading-container{
+        margin-top:2rem ;
+    }
+    
+}
+
+
+

@@ -7,11 +7,11 @@ import logo from '../../../src/Assets/GPT-3.svg';
 
 
 const Menu =()=>(<>
- <a href="">Home</a> <br />
-        <a href="">What is GPT?</a> <br />
-        <a href="">Open AI</a> <br />
-        <a href="">Case Studies</a> <br />
-        <a href="">Library</a> <br />
+        <a href="#home">Home</a> <br />
+        <a href="#gpt3">What is GPT?</a> <br />
+        <a href="#possibility">Open AI</a> <br />
+        <a href="#features">Case Studies</a> <br />
+        <a href="#blog">Library</a> <br />
 
 
 </>
