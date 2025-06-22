@@ -5,7 +5,10 @@ import featureImage from '../../Assets/featureImage.png';
 const Possibility = () => {
   return (
 
-    <div className="possibility section__margin" id='possibility'>
+    <div className="possibility section__margin" id='possibility'
+   data-aos="zoom-in-left"
+    
+    >
       <div className="possibility-img-container">
         <img src={featureImage} alt="" />
       </div>

@@ -120,6 +120,17 @@
 
 @media screen and  (max-width:1050px){
 
+  
+
+    .navbar{
+
+    padding: 3rem 6rem;
+        justify-content: space-between;
+
+}
+
+
+
     
    
     .nav-links{
@@ -156,9 +167,14 @@
 
 @media screen and  (max-width:700px){
 
+  
    .navbar{
-    padding: 2rem 1rem;
-   }
+
+    padding: 3rem 6rem;
+    justify-content: space-between;
+}
+
+ 
 
    
     .nav-menu-btns{
@@ -179,7 +195,31 @@
     
 }
 
+@media screen and (max-width:600px){
+
+
+       .navbar{
+
+    padding: 2.5rem 4rem;
+    justify-content: space-between;
+}
+
+
+    
+}
+
+
+
+
 @media screen and  (max-width:500px){
+
+
+         .navbar{
+
+    padding: 2rem 2rem;
+    justify-content: space-between;
+}
+
 
     .nav-logo{
         margin-left: 30px;

@@ -8,7 +8,7 @@ import shopify from '../../Assets/shopify.png'
 
 const Brand = () => {
   return (
-    <div className="brand section__padding">
+    <div className="brand section__padding"  data-aos="fade-up" >
     <div>
       
       <img src={google} alt="" />

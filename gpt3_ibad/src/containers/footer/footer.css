@@ -1,0 +1,361 @@
+.footer{
+    
+    display: flex;
+    flex-direction: column;
+    background: var(--color-footer);
+}
+
+.footer .footer-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 6rem 0;
+
+}
+
+.footer .footer-heading h1{
+    /* flex: 1; */
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.06rem;
+    text-align: center;
+}
+
+.footer .footer-heading button{
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    padding: 1.5rem;
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-top: 5rem;
+}
+
+.footer span{
+    display: block;
+}
+
+.footer-content{
+    color: #ffffff;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6rem;
+}
+
+
+.footer .footer-content-section1{
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.footer .footer-content-section1 img{
+    width: 118px;
+    height: 30px;
+    margin-bottom: 1.5rem;
+
+}
+
+.footer .footer-content-section1 p{
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+
+}
+
+
+.footer .footer-content-section2{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: 13px;
+}
+
+.footer .footer-content-section2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer-content-section3{
+    display: flex;
+    gap: 13px;
+
+    flex-direction: column;
+
+}
+
+.footer .footer-content-section4{
+    display: flex;
+gap: 13px;
+    flex-direction: column;
+
+}
+
+.footer-content > div a:not(:first-of-type) {
+    font-size: 12px;
+}
+
+
+
+.footer-content > div a:first-of-type {
+    font-size: 14px;
+    font-weight: bold;
+ 
+}
+
+@media  screen and (max-width:1050px) {
+
+       .footer .footer-heading{
+    padding: 4rem;
+    }
+  .footer  .footer-heading h1{
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    .footer .footer-heading button{
+        font-size: 14px;
+        padding: 1rem;
+        margin: 3rem;
+
+    }
+
+   .footer .footer-content .footer-content-section1 img{
+     width: 100px;
+    height: 35px;
+    margin-bottom: 1.2rem;
+   }
+
+   .footer .footer-content .footer-content-section1 p{
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+
+   }
+
+   .footer .footer-content .footer-content-section2,
+   .footer-content-section3,
+   .footer-content-section4 {
+    gap: 10px;
+   }
+
+   .footer-content > div a:not(:first-of-type) {
+    font-size: 10px;
+}
+
+.footer-content > div a:first-of-type {
+    font-size: 12px;
+    font-weight: bold;
+ 
+}
+
+
+
+
+
+    
+}
+
+@media  screen and (max-width:950px) {
+
+       .footer .footer-heading{
+    padding: 3.5rem;
+    }
+
+    .footer  .footer-content{
+        padding: 4rem;
+    }
+
+
+      .footer  .footer-heading h1{
+        font-size: 45px;
+        line-height: 55px;
+    }
+
+    .footer .footer-heading button{
+        font-size: 12px;
+        padding: 0.9rem;
+        margin: 2.5rem;
+
+    }
+
+    
+   .footer .footer-content .footer-content-section2,
+   .footer-content-section3,
+   .footer-content-section4 {
+    gap: 6px;
+   }
+
+
+   .footer-content > div a:not(:first-of-type) {
+    font-size: 8px;
+}
+
+.footer-content > div a:first-of-type {
+    font-size: 10px;
+    font-weight: bold;
+ 
+}
+
+   .footer .footer-content .footer-content-section1 img{
+     width: 80px;
+    height: 27px;
+    margin-bottom: 1rem;
+   }
+
+   .footer .footer-content .footer-content-section1 p{
+    font-size: 8px;
+    line-height: 10px;
+    font-weight: 400;
+
+   }
+
+
+
+
+
+
+
+}
+
+
+
+
+@media  screen and (max-width:730px) {
+
+    .footer  .footer-content{
+        padding: 3rem;
+    }
+
+
+      .footer  .footer-heading h1{
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .footer .footer-heading button{
+        font-size: 10px;
+        padding: 0.8rem;
+        margin: 2.2rem;
+
+    }
+
+    .footer-content > div a:not(:first-of-type) {
+    font-size: 6px;
+}
+
+
+
+
+.footer-content > div a:first-of-type {
+    font-size: 8px;
+    font-weight: bold;
+ 
+}
+
+   .footer .footer-content .footer-content-section1 img{
+     width: 70px;
+    height: 20px;
+    margin-bottom: 0.8rem;
+   }
+
+   .footer .footer-content .footer-content-section1 p{
+    font-size: 7px;
+    line-height: 8px;
+    font-weight: 400;
+
+   }
+
+
+
+   .footer .footer-heading{
+    padding: 3rem;
+    }
+
+
+
+
+
+}
+
+@media  screen and (max-width:600px) {
+
+     .footer  .footer-content{
+        padding: 2.3rem;
+    }
+
+       .footer .footer-heading{
+    padding: 2.8rem;
+    }
+
+}
+
+
+
+@media  screen and (max-width:450px) {
+
+    .footer  .footer-content{
+        padding: 1.5rem;
+    }
+
+
+      .footer  .footer-heading h1{
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .footer .footer-heading button{
+        font-size: 8px;
+        padding: 0.5rem;
+        margin: 1.5rem;
+
+    }
+
+    .footer .footer-heading{
+    padding: 2.5rem;
+    }
+
+    .footer-content > div a:not(:first-of-type) {
+    font-size: 5px;
+}
+
+
+
+
+.footer-content > div a:first-of-type {
+    font-size: 6px;
+    font-weight: bold;
+ 
+}
+
+   .footer .footer-content .footer-content-section1 img{
+     width: 50px;
+    height: 15px;
+    margin-bottom: 0.76rem;
+   }
+
+   .footer .footer-content .footer-content-section1 p{
+    font-size: 5px;
+    line-height: 6px;
+    font-weight: 400;
+
+   }
+
+
+
+
+
+
+
+
+
+}

@@ -26,7 +26,7 @@ const Navbar = () => {
 
 
   return (
-    <div className="navbar">
+    <div className="navbar" data-aos="zoom-in">
       <div className="nav-logo">
         <img src={logo} alt="" />
       </div>

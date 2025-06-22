@@ -4,9 +4,9 @@ import Group from '../../Assets/Group.png'
 import ai from '../../Assets/ai.png'
 const Header = () => {
   return (
-    <div className="header" id='header'>
+    <div className="header" id='header'  data-aos="zoom-in" >
       <div className="header-content  section__padding">
-        <h1 className="gradient__text">
+        <h1 className="gradient__text ">
           Let’s Build Something amazing with GPT-3 OpenAI
         </h1>
         <p>
