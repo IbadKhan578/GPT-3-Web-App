@@ -4,9 +4,8 @@ import logo from '../../Assets/GPT-3.svg';
 
 const Footer = () => {
   return (
-    <div className="footer section__margin"
-    data-aos="fade-up"
-     data-aos-anchor-placement="top-center"  >
+    <div className="footer section__margin"  data-aos="zoom-in-down"
+  >
       <div className="footer-heading">
         <h1 className="gradient__text">
           Do you want to step in to<span>the future before others</span>
